@@ -14,7 +14,7 @@
     @if (ViewData["Title"] != null)
     {
       <div class="jumbotron">
-        <h1 class="display-4">@ViewData["Title"]</h1>
+        <h1 class="display-4" data-toggle="collapse" data-target="#collapseJumbotron" aria-expanded="false" aria-controls="collapseJumbotron">@ViewData["Title"]</h1>
         @await RenderSectionAsync("JumbotronBody", required: false)
       </div>
     }

@@ -6,7 +6,7 @@
   <a class="navbar-brand" asp-page="/Index">Logo</a>
   <!-- Links -->
   <div class="collapse navbar-collapse" id="nav-content">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" asp-page="/Index">Home</a>
       </li>
@@ -22,10 +22,12 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="Preview">
           <a class="dropdown-item" asp-page="/Administrador/Usuarios">Usuarios</a>
-          <a class="dropdown-item" href="#">Dropdown Link 2</a>
-          <a class="dropdown-item" href="#">Dropdown Link 3</a>
+          <a class="dropdown-item" asp-page="/Administrador/GrupoEconomico">Grupos Econômicos</a>
+          <a class="dropdown-item" href="#">Empresas</a>
+          <a class="dropdown-item" href="#">Filiais</a>
         </div>
       </li>
     </ul>
+    @await Html.PartialAsync("Partials/_LoginPartial")
   </div>
 </nav>

@@ -21,6 +21,7 @@
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.2" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Pages\Administrador\GrupoEconomico\" />
     <Folder Include="Scss\Theme\mixins\" />
     <Folder Include="wwwroot\css\" />
   </ItemGroup>

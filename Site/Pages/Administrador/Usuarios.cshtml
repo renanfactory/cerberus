@@ -35,6 +35,16 @@
   </table>
 </form>
 
+@section JumbotronBody {
+  <p class="lead collapse" id="collapseJumbotron">
+    Quando duas ou mais empresas estão sob a direção, o controle ou a administração de outra, compondo grupo industrial, comercial ou de qualquer outra atividade econômica, ainda que cada uma delas tenha personalidade jurídica própria.
+  </p>
+  <hr class="my-4">
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" asp-page="/Administrador/Usuario/Adicionar" role="button">Adicionar Usuario</a>
+  </p>
+}
+
 @section SubMenu {
   @await Html.PartialAsync("Partials/_MenuAdminPartial")
 }
