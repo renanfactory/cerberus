@@ -1,0 +1,62 @@
+﻿@page
+@model Site.Pages.Administrador.Usuario.UsuarioEditModel
+@{
+  ViewData["Title"] = "Edit";
+  Layout = null;
+}
+
+<div class="modal-header">
+  <h5 class="modal-title">Editar Usuario:</h5><br />
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form method="POST" asp-page="./Edit">
+    <input asp-for="Input.Id" type="hidden" />
+    <div class="form-group">
+      <label asp-for="Input.Nome"></label>
+      <input class="form-control" asp-for="Input.Nome">
+      <span asp-validation-for="Input.Nome" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="Input.Sobrenome"></label>
+      <input class="form-control" asp-for="Input.Sobrenome">
+      <span asp-validation-for="Input.Sobrenome" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="Input.Email"></label>
+      <input class="form-control" asp-for="Input.Email">
+      <span asp-validation-for="Input.Email" class="text-danger"></span>
+    </div>
+    <p>
+      Informe o horário de acesso permitido a este sistema:
+    </p>
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <label asp-for="Input.HorarioEntrada"></label>
+          <input class="form-control" asp-for="Input.HorarioEntrada">
+          <span asp-validation-for="Input.HorarioEntrada" class="text-danger"></span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label asp-for="Input.HorarioSaida"></label>
+          <input class="form-control" asp-for="Input.HorarioSaida">
+          <span asp-validation-for="Input.HorarioSaida" class="text-danger"></span>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="checkbox">
+        <label asp-for="Input.Bloqueado"></label>
+        <input type="checkbox" asp-for="Input.Bloqueado" class="filled-in chk-col-pink" />
+      </div>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+  <button type="button" class="btn btn-primary" onclick="SaveChanges()">Save changes</button>
+</div>

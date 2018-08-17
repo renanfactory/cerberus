@@ -49,6 +49,9 @@ namespace Site
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromDays(1);
             });
 
+
+
+
             services.AddMvc()
                .AddRazorPagesOptions(options =>
                {

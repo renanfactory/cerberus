@@ -1,6 +1,12 @@
 {
   "version": "1.0.0",
   "name": "asp-net",
+  "authors": [
+    {
+      "name": "Renan Marcel Paulino Leite",
+      "email": "<renanmpleite@outlook.com>"
+    }
+  ],
   "private": true,
   "devDependencies": {
     "gulp": "^3.9.1",

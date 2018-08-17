@@ -1,9 +1,10 @@
 {
   "name": "asp-net",
-  "description": "",
-  "main": "",
   "authors": [
-    "Renan Marcel Paulino Leite <renanmpleite@outlook.com>"
+    {
+      "name": "Renan Marcel Paulino Leite",
+      "email": "<renanmpleite@outlook.com>"
+    }
   ],
   "license": "MIT",
   "homepage": "",

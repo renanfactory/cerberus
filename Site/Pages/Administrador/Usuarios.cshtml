@@ -1,0 +1,84 @@
+﻿@page
+@model Site.Pages.Administrador.UsuariosModel
+@{
+  ViewData["Title"] = "Usuarios";
+}
+<form>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col" class="text-center">#</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Sobrenome</th>
+        <th scope="col">E-mail</th>
+        <th scope="col" class="text-center">Situação</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (int i = 0; i < Model.Usuarios.Count; i++)
+      {
+        <tr>
+          <th scope="row" class="text-center">@(i + 1)</th>
+          <td>@Model.Usuarios[i].Nome</td>
+          <td>@Model.Usuarios[i].Sobrenome</td>
+          <td>@Model.Usuarios[i].Email</td>
+          <td class="text-center">@Model.Usuarios[i].Situacao</td>
+          <td class="text-center">
+            <a asp-page="./Usuario/Edit" asp-route-id="@Model.Usuarios[i].Id" data-target="#modal-container" data-toggle="modal">
+              Edit
+            </a>
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</form>
+
+@section SubMenu {
+  @await Html.PartialAsync("Partials/_MenuAdminPartial")
+}
+
+@section Scripts {
+  <script type="text/javascript">
+    // when the modal is closed
+    $('#modal-container').on('hidden.bs.modal', function () {
+      // remove the bs.modal data attribute from it
+      $(this).removeData('bs.modal');
+      // and empty the modal-content element
+      $('#modal-container .modal-content').empty();
+    });
+    // boostrap 4 load modal example from docs
+    $('#modal-container').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget); // Button that triggered the modal
+      var url = button.attr("href");
+      var modal = $(this);
+      // note that this will replace the content of modal-content ever time the modal is opened
+      modal.find('.modal-content').load(url);
+    });
+
+    function SaveChanges() {
+      var form = $(".modal-body form");
+      var url = form.attr('action');
+      $.ajax({
+        type: "POST",
+        url: url,
+        data: form.serialize(), // serializes the form's elements.
+        success: function (data) {
+          $("#modal-container").modal("hide");
+          location.reload();
+        }
+      });
+
+    }
+
+  </script>
+}
+
+<div id="modal-container" class="modal fade hidden-print" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+    </div>
+  </div>
+</div>

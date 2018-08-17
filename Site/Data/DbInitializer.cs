@@ -48,7 +48,10 @@ namespace Site.Data
                 NormalizedEmail = "ADMIN@GMAIL.COM",
                 NormalizedUserName = "ADMIN@GMAIL.COM",
                 TwoFactorEnabled = false,
-                UserName = "admin@gmail.com"
+                UserName = "admin@gmail.com",
+                Situacao = "Ativo",
+                HorarioEntrada = "00:00",
+                HorarioSaida = "23:59:59"
             };
 
             var result = await _userManager.CreateAsync(user, "Admin01*");
