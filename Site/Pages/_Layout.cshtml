@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@ViewData["Title"] - Site</title>
+  @await Html.PartialAsync("Partials/_StylesPartial")
+  @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+  @await Html.PartialAsync("Partials/_MenuPartial")
+  @await RenderSectionAsync("SubMenu", required: false)
+  <div class="container body-content">
+    @if (ViewData["Title"] != null)
+    {
+      <div class="jumbotron">
+        <h1 class="display-4">@ViewData["Title"]</h1>
+        @await RenderSectionAsync("JumbotronBody", required: false)
+      </div>
+    }
+    @RenderBody()
+    <hr />
+    @await Html.PartialAsync("Partials/_FooterPartial")
+  </div>
+  @await Html.PartialAsync("Partials/_ScriptsPartial")
+  @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
