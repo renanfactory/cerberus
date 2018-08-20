@@ -25,7 +25,7 @@
           <td>@Model.Usuarios[i].Email</td>
           <td class="text-center">@Model.Usuarios[i].Situacao</td>
           <td class="text-center">
-            <a asp-page="./Usuario/Edit" asp-route-id="@Model.Usuarios[i].Id" data-target="#modal-container" data-toggle="modal">
+            <a asp-page="./Usuarios/Editar" asp-route-id="@Model.Usuarios[i].Id" data-target="#modal-container" data-toggle="modal">
               Edit
             </a>
           </td>
@@ -41,7 +41,7 @@
   </p>
   <hr class="my-4">
   <p class="lead">
-    <a class="btn btn-primary btn-lg" asp-page="/Administrador/Usuario/Adicionar" role="button">Adicionar Usuario</a>
+    <a class="btn btn-primary btn-lg" asp-page="/Administrador/Usuarios/Adicionar" role="button">Adicionar Usuario</a>
   </p>
 }
 
@@ -51,37 +51,29 @@
 
 @section Scripts {
   <script type="text/javascript">
-    // when the modal is closed
-    $('#modal-container').on('hidden.bs.modal', function () {
-      // remove the bs.modal data attribute from it
-      $(this).removeData('bs.modal');
-      // and empty the modal-content element
-      $('#modal-container .modal-content').empty();
-    });
-    // boostrap 4 load modal example from docs
     $('#modal-container').on('show.bs.modal', function (event) {
-      var button = $(event.relatedTarget); // Button that triggered the modal
+      var button = $(event.relatedTarget);
       var url = button.attr("href");
       var modal = $(this);
-      // note that this will replace the content of modal-content ever time the modal is opened
       modal.find('.modal-content').load(url);
     });
-
+    $('#modal-container').on('hidden.bs.modal', function () {
+      $(this).removeData('bs.modal');
+      $('#modal-container .modal-content').empty();
+    });
     function SaveChanges() {
       var form = $(".modal-body form");
       var url = form.attr('action');
       $.ajax({
         type: "POST",
         url: url,
-        data: form.serialize(), // serializes the form's elements.
+        data: form.serialize(),
         success: function (data) {
           $("#modal-container").modal("hide");
           location.reload();
         }
       });
-
     }
-
   </script>
 }
 

@@ -138,6 +138,8 @@ namespace Site.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
 
+                    b.Property<DateTime>("DataCriacao");
+
                     b.Property<DateTime>("DataNascimento");
 
                     b.Property<string>("Email")

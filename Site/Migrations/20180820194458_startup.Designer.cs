@@ -11,7 +11,7 @@ using System;
 namespace Site.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20180820024154_startup")]
+    [Migration("20180820194458_startup")]
     partial class startup
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -138,6 +138,8 @@ namespace Site.Migrations
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
+
+                    b.Property<DateTime>("DataCriacao");
 
                     b.Property<DateTime>("DataNascimento");
 

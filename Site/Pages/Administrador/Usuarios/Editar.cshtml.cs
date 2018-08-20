@@ -5,13 +5,13 @@ using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System;
 
-namespace Site.Pages.Administrador.Usuario
+namespace Site.Pages.Administrador.Usuarios
 {
-    public class UsuarioEditModel : PageModel
+    public class UsuarioEditarModel : PageModel
     {
         private ApplicationDbContext ApplicationDbContext;
 
-        public UsuarioEditModel(ApplicationDbContext _ApplicationDbContext)
+        public UsuarioEditarModel(ApplicationDbContext _ApplicationDbContext)
         {
             ApplicationDbContext = _ApplicationDbContext;
         }

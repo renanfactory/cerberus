@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Site.Data.Entities;
 using Site.Extensions;
 
-namespace Site.Pages.Administrador.Usuario {
+namespace Site.Pages.Administrador.Usuarios {
     public class AdicionarUsuarioModel : PageModel {
         private readonly UserManager<ApplicationUser> _userManager;
 

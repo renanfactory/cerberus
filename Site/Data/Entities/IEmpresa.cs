@@ -15,6 +15,16 @@ namespace Site.Data.Entities
         string Nome { get; set; }
 
         /// <summary>
+        /// Nome fantasia da Empresa
+        /// </summary>
+        string NomeFantasia { get; set; }
+
+        /// <summary>
+        /// UF da Empresa
+        /// </summary>
+        string Uf { get; set; }
+
+        /// <summary>
         /// Código da unidade Federativa da Empresa
         /// </summary>
         int CodigoMunicipio { get; set; }

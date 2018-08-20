@@ -30,6 +30,7 @@ namespace Site.Migrations
                     AccessFailedCount = table.Column<int>(nullable: false),
                     CPF = table.Column<string>(nullable: true),
                     ConcurrencyStamp = table.Column<string>(nullable: true),
+                    DataCriacao = table.Column<DateTime>(nullable: false),
                     DataNascimento = table.Column<DateTime>(nullable: false),
                     Email = table.Column<string>(maxLength: 256, nullable: true),
                     EmailConfirmed = table.Column<bool>(nullable: false),
