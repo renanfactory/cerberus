@@ -7,8 +7,25 @@
       "email": "<renanmpleite@outlook.com>"
     }
   ],
+  "script": {
+    "dev": "bnr dev",
+    "commitmsg": "commitlint -E GIT_PARAMS"
+  },
+  "betterScripts": {
+    "dev": {
+      "command": "dotnet run",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "NODE_ENV": "development",
+        "PLATFORM": "web"
+      }
+    }
+  },
   "private": true,
   "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "better-npm-run": "0.0.15",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
