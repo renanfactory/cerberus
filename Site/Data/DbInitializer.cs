@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using System;
 
 namespace Site.Data
 {
@@ -51,7 +52,9 @@ namespace Site.Data
                 UserName = "admin@gmail.com",
                 Situacao = "Ativo",
                 HorarioEntrada = "00:00",
-                HorarioSaida = "23:59:59"
+                HorarioSaida = "23:59:59",
+                DataNascimento = DateTime.Now,
+                CPF = "999.999.999-99"
             };
 
             var result = await _userManager.CreateAsync(user, "Admin01*");

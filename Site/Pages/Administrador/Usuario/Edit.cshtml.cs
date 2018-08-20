@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Site.Data;
 using System.ComponentModel.DataAnnotations;
+using System.Globalization;
+using System;
 
 namespace Site.Pages.Administrador.Usuario
 {
@@ -13,6 +15,7 @@ namespace Site.Pages.Administrador.Usuario
         {
             ApplicationDbContext = _ApplicationDbContext;
         }
+
 
         [BindProperty]
         public InputModel Input { get; set; }
@@ -30,7 +33,9 @@ namespace Site.Pages.Administrador.Usuario
                 Sobrenome = item.Sobrenome,
                 Bloqueado = item.Situacao.Equals("Bloqueado"),
                 HorarioEntrada = item.HorarioEntrada,
-                HorarioSaida = item.HorarioSaida
+                HorarioSaida = item.HorarioSaida,
+                DataNascimento = item.DataNascimento.ToString("dd/MM/yyyy"),
+                CPF = item.CPF
             };
         }
 
@@ -38,6 +43,7 @@ namespace Site.Pages.Administrador.Usuario
         {
             var id = Input.Id;
             var item = ApplicationDbContext.Users.Find(id);
+            var MyCultureInfo = new CultureInfo ("pt-BR");
 
             item.Nome = Input.Nome;
             item.Sobrenome = Input.Sobrenome;
@@ -45,6 +51,8 @@ namespace Site.Pages.Administrador.Usuario
             item.Situacao = Input.Bloqueado ? "Bloqueado" : "Ativo";
             item.HorarioEntrada = Input.HorarioEntrada;
             item.HorarioSaida = Input.HorarioSaida;
+            item.CPF = Input.CPF;
+            item.DataNascimento = DateTime.Parse (Input.DataNascimento, MyCultureInfo);
 
             ApplicationDbContext.SaveChanges();
 
@@ -74,6 +82,14 @@ namespace Site.Pages.Administrador.Usuario
             [Required]
             [Display(Name = "Horario de saida", Prompt = "Ex: 18:00")]
             public string HorarioSaida { get; set; }
+
+            [Required]
+            [Display (Name = "Data Nascimento", Prompt = "Ex: 01/01/1990")]
+            public string DataNascimento { get; set; }
+
+            [Required]
+            [Display (Name = "CPF", Prompt = "Ex: 999.999.999-99")]
+            public string CPF { get; set; }
 
             [Required]
             [Display(Name = "Bloqueado?")]

@@ -11,8 +11,8 @@ using System;
 namespace Site.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20180817191436_CriacaoProjeto")]
-    partial class CriacaoProjeto
+    [Migration("20180820024154_startup")]
+    partial class startup
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -134,8 +134,12 @@ namespace Site.Migrations
 
                     b.Property<int>("AccessFailedCount");
 
+                    b.Property<string>("CPF");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
+
+                    b.Property<DateTime>("DataNascimento");
 
                     b.Property<string>("Email")
                         .HasMaxLength(256);

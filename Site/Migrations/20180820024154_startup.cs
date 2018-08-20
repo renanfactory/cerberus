@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Site.Migrations
 {
-    public partial class CriacaoProjeto : Migration
+    public partial class startup : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -28,7 +28,9 @@ namespace Site.Migrations
                 {
                     Id = table.Column<string>(nullable: false),
                     AccessFailedCount = table.Column<int>(nullable: false),
+                    CPF = table.Column<string>(nullable: true),
                     ConcurrencyStamp = table.Column<string>(nullable: true),
+                    DataNascimento = table.Column<DateTime>(nullable: false),
                     Email = table.Column<string>(maxLength: 256, nullable: true),
                     EmailConfirmed = table.Column<bool>(nullable: false),
                     HorarioEntrada = table.Column<string>(nullable: true),

@@ -133,8 +133,12 @@ namespace Site.Migrations
 
                     b.Property<int>("AccessFailedCount");
 
+                    b.Property<string>("CPF");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
+
+                    b.Property<DateTime>("DataNascimento");
 
                     b.Property<string>("Email")
                         .HasMaxLength(256);
