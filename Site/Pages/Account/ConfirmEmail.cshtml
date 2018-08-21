@@ -1,0 +1,23 @@
+﻿@page
+@model Site.Pages.Account.ConfirmEmailModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <title>ConfirmEmail</title>
+  @await Html.PartialAsync("Partials/_LoginStylesPartial")
+</head>
+<body>
+  <div class="login-page">
+    <p>
+      Thank you for confirming your email.
+    </p>
+  </div>
+  @await Html.PartialAsync("Partials/_ScriptsPartial")
+</body>
+</html>

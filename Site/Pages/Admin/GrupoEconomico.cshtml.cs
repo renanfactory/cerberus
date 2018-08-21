@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Site.Pages.Administrador
+namespace Site.Pages.Admin
 {
     public class GrupoEconomicoModel : PageModel
     {

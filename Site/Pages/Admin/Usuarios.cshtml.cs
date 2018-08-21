@@ -5,7 +5,7 @@ using Site.Data.Entities;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Site.Pages.Administrador
+namespace Site.Pages.Admin
 {
     public class UsuariosModel : PageModel
     {

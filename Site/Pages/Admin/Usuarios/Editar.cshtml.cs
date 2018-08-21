@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System;
 
-namespace Site.Pages.Administrador.Usuarios
+namespace Site.Pages.Admin.Usuarios
 {
     public class UsuarioEditarModel : PageModel
     {

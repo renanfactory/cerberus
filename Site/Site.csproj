@@ -3,6 +3,12 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Pages\Administrador\**" />
+    <Content Remove="Pages\Administrador\**" />
+    <EmbeddedResource Remove="Pages\Administrador\**" />
+    <None Remove="Pages\Administrador\**" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="IdentityDB.db-journal" />
   </ItemGroup>
 <ItemGroup>
@@ -21,7 +27,6 @@
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.2" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages\Administrador\GrupoEconomico\" />
     <Folder Include="Scss\Theme\mixins\" />
     <Folder Include="wwwroot\css\" />
   </ItemGroup>

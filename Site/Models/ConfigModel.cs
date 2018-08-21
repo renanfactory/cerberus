@@ -7,5 +7,7 @@
         public string TituloSistema { get; set; }
 
         public string NoFollowLink { get; set; }
+
+        public SmtpModel SmtpConfig { get; set; }
     }
 }
