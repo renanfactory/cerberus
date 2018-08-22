@@ -2,9 +2,10 @@ using System;
 
 namespace Site.Data.Entities
 {
-    public interface IBaseEntity
+    public interface IBaseEntity<TKey>
     {
-        DateTime DataCriacao {get;set;}
+        TKey Id { get; set; }
+        DateTime DataCriacao { get; set; }
         string Situacao { get; set; }
     }
 }

@@ -30,4 +30,7 @@
     <Folder Include="Scss\Theme\mixins\" />
     <Folder Include="wwwroot\css\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cep\Cep.csproj" />
+  </ItemGroup>
 </Project>

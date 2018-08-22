@@ -194,6 +194,24 @@ namespace Site.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("Site.Data.Entities.Cidade", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("DataCriacao");
+
+                    b.Property<string>("Nome");
+
+                    b.Property<string>("Situacao");
+
+                    b.Property<string>("UF");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Cidades");
+                });
+
             modelBuilder.Entity("Site.Data.Entities.GrupoEconomico", b =>
                 {
                     b.Property<Guid>("Id")

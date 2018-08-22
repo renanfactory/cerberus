@@ -2,7 +2,7 @@ using System;
 
 namespace Site.Data.Entities
 {
-    public class GrupoEconomico : IEmpresa, IBaseEntity
+    public class GrupoEconomico : IEmpresa, IBaseEntity<Guid>
     {
         public Guid Id { get; set; }
         public DateTime DataCriacao { get; set; }

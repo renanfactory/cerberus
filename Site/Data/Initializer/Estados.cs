@@ -21,6 +21,8 @@ namespace Site.Data.Initializer
                 Situacao = "Ativo"
             });
 
+            await new Estados.AC(_context).InitializeAsync();
+
             await _context.Estados.AddAsync(new Entities.UF()
             {
                 Id = "AL",
@@ -28,6 +30,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.AL(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -37,6 +40,8 @@ namespace Site.Data.Initializer
                 Situacao = "Ativo"
             });
 
+            await new Estados.AM(_context).InitializeAsync();
+
             await _context.Estados.AddAsync(new Entities.UF()
             {
                 Id = "Ap",
@@ -44,6 +49,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.AP(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -52,6 +58,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.BA(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -60,6 +67,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.CE(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -68,6 +76,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.DF(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -76,6 +85,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.ES(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -84,6 +94,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.GO(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -92,6 +103,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.MA(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -100,6 +112,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.MG(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -108,6 +121,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.MS(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -116,6 +130,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.MT(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -124,6 +139,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.PA(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -132,6 +148,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.PB(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -140,6 +157,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.PE(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -148,6 +166,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.PI(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -156,6 +175,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.PR(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -164,6 +184,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.RJ(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -172,6 +193,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.RN(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -180,6 +202,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.RO(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -188,6 +211,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.RR(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -196,6 +220,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.RS(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -204,6 +229,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.SC(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -212,6 +238,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.SE(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -220,6 +247,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
+            await new Estados.SP(_context).InitializeAsync();
 
             await _context.Estados.AddAsync(new Entities.UF()
             {
@@ -228,8 +256,7 @@ namespace Site.Data.Initializer
                 DataCriacao = DateTime.Now,
                 Situacao = "Ativo"
             });
-
-            await _context.SaveChangesAsync();
+            await new Estados.TO(_context).InitializeAsync();
         }
     }
 }

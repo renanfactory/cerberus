@@ -2,7 +2,7 @@
 
 namespace Site.Data.Entities
 {
-    public class UF : IBaseEntity
+    public class UF : IBaseEntity<string>
     {
         public string Id { get; set; }
         public string UnidadeFederativa { get; set; }

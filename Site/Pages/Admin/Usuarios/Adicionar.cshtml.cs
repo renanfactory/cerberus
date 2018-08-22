@@ -158,6 +158,7 @@ namespace Site.Pages.Admin.Usuarios
 
             [Required]
             [Display(Name = "Email", Prompt = "Email")]
+            [EmailAddress]
             public string Email { get; set; }
 
             [Required]

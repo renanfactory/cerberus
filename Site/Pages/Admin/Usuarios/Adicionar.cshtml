@@ -8,6 +8,11 @@
   @await Html.PartialAsync("Partials/_MenuAdminPartial")
 }
 
+@section Scripts {
+  @await Html.PartialAsync("Partials/_ValidationScriptsPartial")
+
+}
+
 <form method="POST">
   <hr />
   <div asp-validation-summary="All" class="text-danger"></div>
@@ -68,5 +73,6 @@
       </div>
     </div>
   </div>
+  <hr />
   <button class="btn btn-primary btn-lg" type="submit">Cadastrar</button>
 </form>
