@@ -169,6 +169,8 @@ namespace Site.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed");
 
+                    b.Property<string>("RG");
+
                     b.Property<string>("SecurityStamp");
 
                     b.Property<string>("Situacao");
@@ -218,6 +220,22 @@ namespace Site.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("GruposEconomicos");
+                });
+
+            modelBuilder.Entity("Site.Data.Entities.UF", b =>
+                {
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("DataCriacao");
+
+                    b.Property<string>("Situacao");
+
+                    b.Property<string>("UnidadeFederativa");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Estados");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

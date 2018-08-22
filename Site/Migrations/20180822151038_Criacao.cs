@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Site.Migrations
 {
-    public partial class startup : Migration
+    public partial class Criacao : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -44,6 +44,7 @@ namespace Site.Migrations
                     PasswordHash = table.Column<string>(nullable: true),
                     PhoneNumber = table.Column<string>(nullable: true),
                     PhoneNumberConfirmed = table.Column<bool>(nullable: false),
+                    RG = table.Column<string>(nullable: true),
                     SecurityStamp = table.Column<string>(nullable: true),
                     Situacao = table.Column<string>(nullable: true),
                     Sobrenome = table.Column<string>(nullable: true),
@@ -53,6 +54,40 @@ namespace Site.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Estados",
+                columns: table => new
+                {
+                    Id = table.Column<string>(nullable: false),
+                    DataCriacao = table.Column<DateTime>(nullable: false),
+                    Situacao = table.Column<string>(nullable: true),
+                    UnidadeFederativa = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Estados", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "GruposEconomicos",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(nullable: false),
+                    CNPJ = table.Column<string>(nullable: true),
+                    CodigoMunicipio = table.Column<int>(nullable: false),
+                    DataCriacao = table.Column<DateTime>(nullable: false),
+                    DataFundacao = table.Column<DateTime>(nullable: false),
+                    InscricaoMunicipal = table.Column<string>(nullable: true),
+                    Nome = table.Column<string>(nullable: true),
+                    NomeFantasia = table.Column<string>(nullable: true),
+                    Situacao = table.Column<string>(nullable: true),
+                    Uf = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GruposEconomicos", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -215,6 +250,12 @@ namespace Site.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "Estados");
+
+            migrationBuilder.DropTable(
+                name: "GruposEconomicos");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
