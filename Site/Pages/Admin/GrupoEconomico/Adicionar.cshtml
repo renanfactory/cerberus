@@ -25,51 +25,59 @@
               cep: cep
             },
             contentType: "application/json",
-            dataType: "json",
-            success: function (response) {
+            dataType: "json"
+          })
+            .done(function (response) {
               if (response) {
                 $("#Input_Logradouro").val(response.logradouro);
-
-
-                jQuery("#Input_UF option:selected").removeAttr("selected");
-                jQuery("#Input_UF option[value='" + response.uf.toUpperCase() + "']").attr('selected', 'selected');
-                UpdateCidades();
-
-
-
+                $("#Input_UF option:selected").removeAttr("selected");
+                $("#Input_UF option[value='" + response.uf.toUpperCase() + "']").attr('selected', 'selected');
+                UpdateCidades(response.cidade);
               }
+            })
+            .catch(function (error) {
 
-
-
-            },
-            failure: function (response) {
-              debugger;
-            }
-          });
-
+            });
         });
+
+      $("#Input_UF").change(function () {
+        UpdateCidades();
+      });
+
     });
 
-    function UpdateCidades() {
+    function UpdateCidades(cidadenome) {
       var uf = jQuery("#Input_UF option:selected").val();
-      $("#Input_CEP")
-        .focusout(function (e) {
-          var cep = $("#Input_CEP").val();
-          $.ajax({
-            type: "GET",
-            url: './Adicionar/?handler=CidadeList',
-            data: {
-              uf: uf
-            },
-            contentType: "application/json",
-            dataType: "json",
-            success: function (response) {
-              debugger;
-            },
-            failure: function (response) {
-              debugger;
-            }
-          });
+      var cep = $("#Input_CEP").val();
+      $.ajax({
+        type: "GET",
+        url: './Adicionar/?handler=CidadeList',
+        data: {
+          uf: uf
+        },
+        contentType: "application/json",
+        dataType: "json"
+      })
+        .done(function (response) {
+          $("#Input_CodigoMunicipio")
+            .find('option')
+            .remove()
+            .end();
+          for (var i = 0; i < response.length; i++) {
+            $("#Input_CodigoMunicipio").append("<option value=\"" + response[i].id + "\">" + response[i].nome + "</option>");
+          }
+          if (cidadenome) {
+            $("#Input_CodigoMunicipio option:selected").removeAttr("selected");
+            $("#Input_CodigoMunicipio").find('option').filter(
+              function () { return $(this).html() == cidadenome; })
+              .attr('selected', 'selected');
+          }
+        })
+        .catch(function (error) {
+          $("#Input_CodigoMunicipio")
+            .find('option')
+            .remove()
+            .end();
         });
     };
   </script>
@@ -105,6 +113,24 @@
   <div class="row">
     <div class="col">
       <div class="form-group">
+        <label asp-for="Input.RamoAtividade"></label>
+        <select class="custom-select" asp-for="Input.RamoAtividade" multiple="multiple">
+          @foreach (dynamic item in (IEnumerable<ItemRamoAtividade>)ViewData["RamosDeAtividades"])
+          {
+            <option value="@item.id">@item.nome</option>
+          }
+        </select>
+      </div>
+    </div>
+    <div class="col">
+
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
         <label asp-for="Input.Nome"></label>
         <input class="form-control" asp-for="Input.Nome">
         <span asp-validation-for="Input.Nome" class="text-danger"></span>
@@ -115,6 +141,36 @@
         <label asp-for="Input.NomeFantasia"></label>
         <input class="form-control" asp-for="Input.NomeFantasia">
         <span asp-validation-for="Input.NomeFantasia" class="text-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <label asp-for="Input.DDI"></label>
+        <input class="form-control" asp-for="Input.DDI">
+        <span asp-validation-for="Input.DDI" class="text-danger"></span>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-group">
+        <label asp-for="Input.CodigoRegiao"></label>
+        <input class="form-control" asp-for="Input.CodigoRegiao">
+        <span asp-validation-for="Input.CodigoRegiao" class="text-danger"></span>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-group">
+        <label asp-for="Input.NumeroTelefone"></label>
+        <input class="form-control" asp-for="Input.NumeroTelefone">
+        <span asp-validation-for="Input.NumeroTelefone" class="text-danger"></span>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-group">
+        <label asp-for="Input.Ramal"></label>
+        <input class="form-control" asp-for="Input.Ramal">
+        <span asp-validation-for="Input.Ramal" class="text-danger"></span>
       </div>
     </div>
   </div>
@@ -150,18 +206,22 @@
       </div>
     </div>
     <div class="col">
-      <label asp-for="Input.UF"></label>
-      <select class="custom-select" asp-for="Input.UF">
-        <option value="">(Selecione)</option>
-        @foreach (dynamic item in (IEnumerable<ItemUF>)ViewData["Estados"])
-        {
-          <option value="@item.sigla">@item.nome</option>
-        }
-      </select>
+      <div class="form-group">
+        <label asp-for="Input.UF"></label>
+        <select class="custom-select" asp-for="Input.UF">
+          <option value="ZO">(Selecione)</option>
+          @foreach (dynamic item in (IEnumerable<ItemUFModel>)ViewData["Estados"])
+          {
+            <option value="@item.sigla">@item.nome</option>
+          }
+        </select>
+      </div>
     </div>
     <div class="col">
-      <label asp-for="Input.CodigoMunicipio"></label>
-      <select class="custom-select" asp-for="Input.CodigoMunicipio"></select>
+      <div class="form-group">
+        <label asp-for="Input.CodigoMunicipio"></label>
+        <select class="custom-select" asp-for="Input.CodigoMunicipio"></select>
+      </div>
     </div>
   </div>
   <hr />

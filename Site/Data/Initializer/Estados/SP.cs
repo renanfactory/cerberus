@@ -20,7 +20,7 @@ namespace Site.Data.Initializer.Estados
             //----------------------------------------------------
 
             // cidade: Adamantina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4806,
@@ -30,7 +30,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Adolfo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4807,
@@ -40,7 +40,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Aguaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4808,
@@ -50,7 +50,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Águas da Prata
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4809,
@@ -60,7 +60,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Águas de Lindóia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4810,
@@ -70,7 +70,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Águas de Santa Bárbara
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4811,
@@ -80,7 +80,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Águas de São Pedro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4812,
@@ -90,7 +90,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Agudos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4813,
@@ -100,7 +100,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Alambari
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4814,
@@ -110,7 +110,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Alfredo Marcondes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4815,
@@ -120,7 +120,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Altair
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4816,
@@ -130,7 +130,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Altinópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4817,
@@ -140,7 +140,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Alto Alegre
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4818,
@@ -150,7 +150,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Alumínio
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4819,
@@ -160,7 +160,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Álvares Florence
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4820,
@@ -170,7 +170,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Álvares Machado
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4821,
@@ -180,7 +180,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Álvaro de Carvalho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4822,
@@ -190,7 +190,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Alvinlândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4823,
@@ -200,7 +200,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Americana
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4824,
@@ -210,7 +210,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Américo Brasiliense
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4825,
@@ -220,7 +220,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Américo de Campos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4826,
@@ -230,7 +230,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Amparo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4827,
@@ -240,7 +240,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Analândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4828,
@@ -250,7 +250,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Andradina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4829,
@@ -260,7 +260,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Angatuba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4830,
@@ -270,7 +270,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Anhembi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4831,
@@ -280,7 +280,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Anhumas
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4832,
@@ -290,7 +290,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Aparecida
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4833,
@@ -300,7 +300,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Aparecida D Oeste
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4834,
@@ -310,7 +310,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Apiaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4835,
@@ -320,7 +320,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Araçariguama
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4836,
@@ -330,7 +330,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Araçatuba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4837,
@@ -340,7 +340,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Araçoiaba da Serra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4838,
@@ -350,7 +350,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Aramina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4839,
@@ -360,7 +360,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Arandu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4840,
@@ -370,7 +370,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Arapeí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4841,
@@ -380,7 +380,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Araraquara
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4842,
@@ -390,7 +390,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Araras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4843,
@@ -400,7 +400,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Arco Íris
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4844,
@@ -410,7 +410,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Arealva
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4845,
@@ -420,7 +420,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Areias
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4846,
@@ -430,7 +430,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Areiópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4847,
@@ -440,7 +440,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ariranha
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4848,
@@ -450,7 +450,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Artur Nogueira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4849,
@@ -460,7 +460,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Arujá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4850,
@@ -470,7 +470,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Aspásia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4851,
@@ -480,7 +480,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Assis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4852,
@@ -490,7 +490,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Atibaia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4853,
@@ -500,7 +500,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Auriflama
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4854,
@@ -510,7 +510,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Avaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4855,
@@ -520,7 +520,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Avanhandava
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4856,
@@ -530,7 +530,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Avaré
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4857,
@@ -540,7 +540,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bady Bassitt
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4858,
@@ -550,7 +550,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Balbinos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4859,
@@ -560,7 +560,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bálsamo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4860,
@@ -570,7 +570,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bananal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4861,
@@ -580,7 +580,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Barão de Antonina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4862,
@@ -590,7 +590,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Barbosa
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4863,
@@ -600,7 +600,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bariri
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4864,
@@ -610,7 +610,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Barra Bonita
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4865,
@@ -620,7 +620,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Barra do Chapéu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4866,
@@ -630,7 +630,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Barra do Turvo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4867,
@@ -640,7 +640,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Barretos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4868,
@@ -650,7 +650,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Barrinha
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4869,
@@ -660,7 +660,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Barueri
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4870,
@@ -670,7 +670,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bastos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4871,
@@ -680,7 +680,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Batatais
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4872,
@@ -690,7 +690,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bauru
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4873,
@@ -700,7 +700,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bebedouro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4874,
@@ -710,7 +710,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bento de Abreu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4875,
@@ -720,7 +720,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bernardino de Campos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4876,
@@ -730,7 +730,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bertioga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4877,
@@ -740,7 +740,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bilac
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4878,
@@ -750,7 +750,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Birigüi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4879,
@@ -760,7 +760,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Biritiba Mirim
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4880,
@@ -770,7 +770,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Boa Esperança do Sul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4881,
@@ -780,7 +780,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bocaina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4882,
@@ -790,7 +790,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bofete
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4883,
@@ -800,7 +800,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Boituva
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4884,
@@ -810,7 +810,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bom Jesus dos Perdões
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4885,
@@ -820,7 +820,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bom Sucesso de Itararé
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4886,
@@ -830,7 +830,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Borá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4887,
@@ -840,7 +840,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Boracéia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4888,
@@ -850,7 +850,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Borborema
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4889,
@@ -860,7 +860,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Borebi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4890,
@@ -870,7 +870,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Botucatu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4891,
@@ -880,7 +880,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bragança Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4892,
@@ -890,7 +890,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Braúna
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4893,
@@ -900,7 +900,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Brejo Alegre
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4894,
@@ -910,7 +910,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Brodósqui
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4895,
@@ -920,7 +920,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Brotas
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4896,
@@ -930,7 +930,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Buri
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4897,
@@ -940,7 +940,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Buritama
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4898,
@@ -950,7 +950,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Buritizal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4899,
@@ -960,7 +960,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cabrália Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4900,
@@ -970,7 +970,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cabreúva
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4901,
@@ -980,7 +980,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Caçapava
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4902,
@@ -990,7 +990,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cachoeira Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4903,
@@ -1000,7 +1000,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Caconde
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4904,
@@ -1010,7 +1010,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cafelândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4905,
@@ -1020,7 +1020,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Caiabu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4906,
@@ -1030,7 +1030,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Caieiras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4907,
@@ -1040,7 +1040,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Caiuá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4908,
@@ -1050,7 +1050,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cajamar
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4909,
@@ -1060,7 +1060,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cajati
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4910,
@@ -1070,7 +1070,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cajobi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4911,
@@ -1080,7 +1080,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cajuru
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4912,
@@ -1090,7 +1090,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Campina do Monte Alegre
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4913,
@@ -1100,7 +1100,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Campinas
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4914,
@@ -1110,7 +1110,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Campo Limpo Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4915,
@@ -1120,7 +1120,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Campos do Jordão
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4916,
@@ -1130,7 +1130,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Campos Novos Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4917,
@@ -1140,7 +1140,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cananéia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4918,
@@ -1150,7 +1150,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Canas
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4919,
@@ -1160,7 +1160,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cândido Mota
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4920,
@@ -1170,7 +1170,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cândido Rodrigues
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4921,
@@ -1180,7 +1180,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Canitar
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4922,
@@ -1190,7 +1190,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Capão Bonito
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4923,
@@ -1200,7 +1200,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Capela do Alto
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4924,
@@ -1210,7 +1210,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Capivari
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4925,
@@ -1220,7 +1220,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Caraguatatuba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4926,
@@ -1230,7 +1230,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Carapicuíba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4927,
@@ -1240,7 +1240,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cardoso
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4928,
@@ -1250,7 +1250,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Casa Branca
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4929,
@@ -1260,7 +1260,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cássia dos Coqueiros
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4930,
@@ -1270,7 +1270,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Castilho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4931,
@@ -1280,7 +1280,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Catanduva
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4932,
@@ -1290,7 +1290,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Catiguá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4933,
@@ -1300,7 +1300,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cedral
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4934,
@@ -1310,7 +1310,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cerqueira César
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4935,
@@ -1320,7 +1320,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cerquilho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4936,
@@ -1330,7 +1330,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cesário Lange
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4937,
@@ -1340,7 +1340,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Charqueada
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4938,
@@ -1350,7 +1350,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Chavantes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4939,
@@ -1360,7 +1360,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Clementina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4940,
@@ -1370,7 +1370,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Colina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4941,
@@ -1380,7 +1380,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Colômbia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4942,
@@ -1390,7 +1390,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Conchal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4943,
@@ -1400,7 +1400,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Conchas
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4944,
@@ -1410,7 +1410,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cordeirópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4945,
@@ -1420,7 +1420,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Coroados
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4946,
@@ -1430,7 +1430,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Coronel Macedo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4947,
@@ -1440,7 +1440,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Corumbataí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4948,
@@ -1450,7 +1450,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cosmópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4949,
@@ -1460,7 +1460,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cosmorama
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4950,
@@ -1470,7 +1470,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cotia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4951,
@@ -1480,7 +1480,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cravinhos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4952,
@@ -1490,7 +1490,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cristais Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4953,
@@ -1500,7 +1500,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cruzália
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4954,
@@ -1510,7 +1510,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cruzeiro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4955,
@@ -1520,7 +1520,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cubatão
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4956,
@@ -1530,7 +1530,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cunha
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4957,
@@ -1540,7 +1540,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Descalvado
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4958,
@@ -1550,7 +1550,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Diadema
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4959,
@@ -1560,7 +1560,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Dirce Reis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4960,
@@ -1570,7 +1570,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Divinolândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4961,
@@ -1580,7 +1580,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Dobrada
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4962,
@@ -1590,7 +1590,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Dois Córregos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4963,
@@ -1600,7 +1600,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Dolcinópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4964,
@@ -1610,7 +1610,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Dourado
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4965,
@@ -1620,7 +1620,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Dracena
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4966,
@@ -1630,7 +1630,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Duartina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4967,
@@ -1640,7 +1640,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Dumont
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4968,
@@ -1650,7 +1650,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Echaporã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4969,
@@ -1660,7 +1660,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Eldorado
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4970,
@@ -1670,7 +1670,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Elias Fausto
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4971,
@@ -1680,7 +1680,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Elisiário
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4972,
@@ -1690,7 +1690,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Embaúba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4973,
@@ -1700,7 +1700,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Embu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4974,
@@ -1710,7 +1710,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Embu Guaçu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4975,
@@ -1720,7 +1720,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Emilianópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4976,
@@ -1730,7 +1730,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Engenheiro Coelho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4977,
@@ -1740,7 +1740,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Espírito Santo do Pinhal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4978,
@@ -1750,7 +1750,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Espírito Santo do Turvo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4979,
@@ -1760,7 +1760,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Estiva Gerbi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4980,
@@ -1770,7 +1770,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Estrela do Norte
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4981,
@@ -1780,7 +1780,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Estrela D Oeste
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4982,
@@ -1790,7 +1790,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Euclides da Cunha Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4983,
@@ -1800,7 +1800,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Fartura
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4984,
@@ -1810,7 +1810,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Fernando Prestes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4985,
@@ -1820,7 +1820,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Fernandópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4986,
@@ -1830,7 +1830,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Fernão
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4987,
@@ -1840,7 +1840,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ferraz de Vasconcelos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4988,
@@ -1850,7 +1850,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Flora Rica
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4989,
@@ -1860,7 +1860,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Floreal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4990,
@@ -1870,7 +1870,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Flórida Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4991,
@@ -1880,7 +1880,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Florínia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4992,
@@ -1890,7 +1890,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Franca
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4993,
@@ -1900,7 +1900,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Francisco Morato
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4994,
@@ -1910,7 +1910,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Franco da Rocha
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4995,
@@ -1920,7 +1920,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Gabriel Monteiro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4996,
@@ -1930,7 +1930,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Gália
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4997,
@@ -1940,7 +1940,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Garça
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4998,
@@ -1950,7 +1950,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Gastão Vidigal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4999,
@@ -1960,7 +1960,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Gavião Peixoto
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5000,
@@ -1970,7 +1970,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: General Salgado
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5001,
@@ -1980,7 +1980,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Getulina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5002,
@@ -1990,7 +1990,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Glicério
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5003,
@@ -2000,7 +2000,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guaiçara
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5004,
@@ -2010,7 +2010,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guaimbê
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5005,
@@ -2020,7 +2020,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guaíra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5006,
@@ -2030,7 +2030,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guapiaçu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5007,
@@ -2040,7 +2040,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guapiara
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5008,
@@ -2050,7 +2050,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guará
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5009,
@@ -2060,7 +2060,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guaraçaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5010,
@@ -2070,7 +2070,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guaraci
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5011,
@@ -2080,7 +2080,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guarani D Oeste
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5012,
@@ -2090,7 +2090,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guarantã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5013,
@@ -2100,7 +2100,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guararapes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5014,
@@ -2110,7 +2110,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guararema
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5015,
@@ -2120,7 +2120,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guaratinguetá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5016,
@@ -2130,7 +2130,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guareí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5017,
@@ -2140,7 +2140,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guariba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5018,
@@ -2150,7 +2150,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guarujá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5019,
@@ -2160,7 +2160,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guarulhos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5020,
@@ -2170,7 +2170,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guatapará
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5021,
@@ -2180,7 +2180,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Guzolândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5022,
@@ -2190,7 +2190,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Herculândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5023,
@@ -2200,7 +2200,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Holambra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5024,
@@ -2210,7 +2210,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Hortolândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5025,
@@ -2220,7 +2220,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Iacanga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5026,
@@ -2230,7 +2230,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Iacri
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5027,
@@ -2240,7 +2240,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Iaras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5028,
@@ -2250,7 +2250,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ibaté
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5029,
@@ -2260,7 +2260,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ibirá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5030,
@@ -2270,7 +2270,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ibirarema
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5031,
@@ -2280,7 +2280,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ibitinga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5032,
@@ -2290,7 +2290,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ibiúna
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5033,
@@ -2300,7 +2300,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Icém
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5034,
@@ -2310,7 +2310,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Iepê
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5035,
@@ -2320,7 +2320,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Igaraçu do Tietê
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5036,
@@ -2330,7 +2330,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Igarapava
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5037,
@@ -2340,7 +2340,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Igaratá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5038,
@@ -2350,7 +2350,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Iguape
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5039,
@@ -2360,7 +2360,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ilha Comprida
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5040,
@@ -2370,7 +2370,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ilha Solteira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5041,
@@ -2380,7 +2380,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ilhabela
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5042,
@@ -2390,7 +2390,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Indaiatuba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5043,
@@ -2400,7 +2400,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Indiana
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5044,
@@ -2410,7 +2410,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Indiaporã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5045,
@@ -2420,7 +2420,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Inúbia Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5046,
@@ -2430,7 +2430,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ipaussu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5047,
@@ -2440,7 +2440,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Iperó
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5048,
@@ -2450,7 +2450,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ipeúna
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5049,
@@ -2460,7 +2460,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ipiguá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5050,
@@ -2470,7 +2470,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Iporanga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5051,
@@ -2480,7 +2480,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ipuã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5052,
@@ -2490,7 +2490,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Iracemápolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5053,
@@ -2500,7 +2500,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Irapuã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5054,
@@ -2510,7 +2510,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Irapuru
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5055,
@@ -2520,7 +2520,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itaberá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5056,
@@ -2530,7 +2530,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5057,
@@ -2540,7 +2540,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itajobi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5058,
@@ -2550,7 +2550,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itaju
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5059,
@@ -2560,7 +2560,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itanhaém
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5060,
@@ -2570,7 +2570,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itaóca
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5061,
@@ -2580,7 +2580,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itapecerica da Serra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5062,
@@ -2590,7 +2590,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itapetininga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5063,
@@ -2600,7 +2600,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itapeva
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5064,
@@ -2610,7 +2610,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itapevi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5065,
@@ -2620,7 +2620,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itapira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5066,
@@ -2630,7 +2630,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itapirapuã Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5067,
@@ -2640,7 +2640,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itápolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5068,
@@ -2650,7 +2650,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itaporanga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5069,
@@ -2660,7 +2660,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itapuí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5070,
@@ -2670,7 +2670,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itapura
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5071,
@@ -2680,7 +2680,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itaquaquecetuba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5072,
@@ -2690,7 +2690,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itararé
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5073,
@@ -2700,7 +2700,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itariri
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5074,
@@ -2710,7 +2710,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itatiba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5075,
@@ -2720,7 +2720,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itatinga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5076,
@@ -2730,7 +2730,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itirapina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5077,
@@ -2740,7 +2740,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itirapuã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5078,
@@ -2750,7 +2750,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itobi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5079,
@@ -2760,7 +2760,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5080,
@@ -2770,7 +2770,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Itupeva
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5081,
@@ -2780,7 +2780,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ituverava
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5082,
@@ -2790,7 +2790,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jaborandi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5083,
@@ -2800,7 +2800,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jaboticabal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5084,
@@ -2810,7 +2810,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jacareí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5085,
@@ -2820,7 +2820,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jaci
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5086,
@@ -2830,7 +2830,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jacupiranga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5087,
@@ -2840,7 +2840,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jaguariúna
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5088,
@@ -2850,7 +2850,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jales
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5089,
@@ -2860,7 +2860,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jambeiro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5090,
@@ -2870,7 +2870,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jandira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5091,
@@ -2880,7 +2880,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jardinópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5092,
@@ -2890,7 +2890,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jarinu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5093,
@@ -2900,7 +2900,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jaú
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5094,
@@ -2910,7 +2910,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jeriquara
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5095,
@@ -2920,7 +2920,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Joanópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5096,
@@ -2930,7 +2930,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: João Ramalho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5097,
@@ -2940,7 +2940,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: José Bonifácio
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5098,
@@ -2950,7 +2950,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Júlio Mesquita
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5099,
@@ -2960,7 +2960,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jumirim
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5100,
@@ -2970,7 +2970,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jundiaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5101,
@@ -2980,7 +2980,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Junqueirópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5102,
@@ -2990,7 +2990,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Juquiá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5103,
@@ -3000,7 +3000,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Juquitiba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5104,
@@ -3010,7 +3010,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lagoinha
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5105,
@@ -3020,7 +3020,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Laranjal Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5106,
@@ -3030,7 +3030,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lavínia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5107,
@@ -3040,7 +3040,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lavrinhas
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5108,
@@ -3050,7 +3050,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Leme
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5109,
@@ -3060,7 +3060,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lençóis Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5110,
@@ -3070,7 +3070,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Limeira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5111,
@@ -3080,7 +3080,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lindóia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5112,
@@ -3090,7 +3090,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lins
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5113,
@@ -3100,7 +3100,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lorena
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5114,
@@ -3110,7 +3110,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lourdes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5115,
@@ -3120,7 +3120,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Louveira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5116,
@@ -3130,7 +3130,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lucélia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5117,
@@ -3140,7 +3140,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lucianópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5118,
@@ -3150,7 +3150,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Luís Antônio
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5119,
@@ -3160,7 +3160,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Luisiânia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5120,
@@ -3170,7 +3170,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lupércio
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5121,
@@ -3180,7 +3180,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Lutécia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5122,
@@ -3190,7 +3190,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Macatuba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5123,
@@ -3200,7 +3200,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Macaubal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5124,
@@ -3210,7 +3210,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Macedônia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5125,
@@ -3220,7 +3220,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Magda
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5126,
@@ -3230,7 +3230,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mairinque
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5127,
@@ -3240,7 +3240,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mairiporã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5128,
@@ -3250,7 +3250,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Manduri
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5129,
@@ -3260,7 +3260,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Marabá Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5130,
@@ -3270,7 +3270,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Maracaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5131,
@@ -3280,7 +3280,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Marapoama
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5132,
@@ -3290,7 +3290,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mariápolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5133,
@@ -3300,7 +3300,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Marília
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5134,
@@ -3310,7 +3310,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Marinópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5135,
@@ -3320,7 +3320,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Martinópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5136,
@@ -3330,7 +3330,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Matão
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5137,
@@ -3340,7 +3340,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mauá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5138,
@@ -3350,7 +3350,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mendonça
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5139,
@@ -3360,7 +3360,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Meridiano
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5140,
@@ -3370,7 +3370,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mesópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5141,
@@ -3380,7 +3380,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Miguelópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5142,
@@ -3390,7 +3390,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mineiros do Tietê
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5143,
@@ -3400,7 +3400,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mira Estrela
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5144,
@@ -3410,7 +3410,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Miracatu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5145,
@@ -3420,7 +3420,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mirandópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5146,
@@ -3430,7 +3430,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mirante do Paranapanema
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5147,
@@ -3440,7 +3440,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mirassol
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5148,
@@ -3450,7 +3450,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mirassolândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5149,
@@ -3460,7 +3460,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mococa
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5150,
@@ -3470,7 +3470,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mogi das Cruzes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5151,
@@ -3480,7 +3480,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mogi Guaçu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5152,
@@ -3490,7 +3490,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mogi Mirim
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5153,
@@ -3500,7 +3500,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mombuca
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5154,
@@ -3510,7 +3510,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Monções
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5155,
@@ -3520,7 +3520,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mongaguá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5156,
@@ -3530,7 +3530,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Monte Alegre do Sul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5157,
@@ -3540,7 +3540,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Monte Alto
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5158,
@@ -3550,7 +3550,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Monte Aprazível
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5159,
@@ -3560,7 +3560,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Monte Azul Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5160,
@@ -3570,7 +3570,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Monte Castelo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5161,
@@ -3580,7 +3580,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Monte Mor
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5162,
@@ -3590,7 +3590,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Monteiro Lobato
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5163,
@@ -3600,7 +3600,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Morro Agudo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5164,
@@ -3610,7 +3610,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Morungaba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5165,
@@ -3620,7 +3620,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Motuca
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5166,
@@ -3630,7 +3630,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Murutinga do Sul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5167,
@@ -3640,7 +3640,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nantes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5168,
@@ -3650,7 +3650,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Narandiba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5169,
@@ -3660,7 +3660,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Natividade da Serra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5170,
@@ -3670,7 +3670,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nazaré Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5171,
@@ -3680,7 +3680,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Neves Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5172,
@@ -3690,7 +3690,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nhandeara
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5173,
@@ -3700,7 +3700,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nipoã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5174,
@@ -3710,7 +3710,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nova Aliança
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5175,
@@ -3720,7 +3720,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nova Campina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5176,
@@ -3730,7 +3730,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nova Canaã Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5177,
@@ -3740,7 +3740,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nova Castilho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5178,
@@ -3750,7 +3750,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nova Europa
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5179,
@@ -3760,7 +3760,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nova Granada
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5180,
@@ -3770,7 +3770,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nova Guataporanga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5181,
@@ -3780,7 +3780,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nova Independência
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5182,
@@ -3790,7 +3790,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nova Luzitânia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5183,
@@ -3800,7 +3800,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nova Odessa
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5184,
@@ -3810,7 +3810,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Novais
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5185,
@@ -3820,7 +3820,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Novo Horizonte
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5186,
@@ -3830,7 +3830,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Nuporanga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5187,
@@ -3840,7 +3840,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ocauçu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5188,
@@ -3850,7 +3850,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Óleo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5189,
@@ -3860,7 +3860,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Olímpia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5190,
@@ -3870,7 +3870,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Onda Verde
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5191,
@@ -3880,7 +3880,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Oriente
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5192,
@@ -3890,7 +3890,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Orindiúva
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5193,
@@ -3900,7 +3900,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Orlândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5194,
@@ -3910,7 +3910,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Osasco
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5195,
@@ -3920,7 +3920,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Oscar Bressane
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5196,
@@ -3930,7 +3930,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Osvaldo Cruz
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5197,
@@ -3940,7 +3940,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ourinhos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5198,
@@ -3950,7 +3950,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ouro Verde
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5199,
@@ -3960,7 +3960,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ouroeste
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5200,
@@ -3970,7 +3970,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pacaembu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5201,
@@ -3980,7 +3980,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Palestina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5202,
@@ -3990,7 +3990,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Palmares Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5203,
@@ -4000,7 +4000,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Palmeira D Oeste
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5204,
@@ -4010,7 +4010,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Palmital
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5205,
@@ -4020,7 +4020,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Panorama
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5206,
@@ -4030,7 +4030,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Paraguaçu Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5207,
@@ -4040,7 +4040,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Paraibuna
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5208,
@@ -4050,7 +4050,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Paraíso
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5209,
@@ -4060,7 +4060,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Paranapanema
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5210,
@@ -4070,7 +4070,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Paranapuã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5211,
@@ -4080,7 +4080,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Parapuã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5212,
@@ -4090,7 +4090,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pardinho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5213,
@@ -4100,7 +4100,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pariquera Açu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5214,
@@ -4110,7 +4110,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Parisi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5215,
@@ -4120,7 +4120,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Patrocínio Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5216,
@@ -4130,7 +4130,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Paulicéia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5217,
@@ -4140,7 +4140,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Paulínia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5218,
@@ -4150,7 +4150,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Paulistânia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5219,
@@ -4160,7 +4160,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Paulo de Faria
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5220,
@@ -4170,7 +4170,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pederneiras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5221,
@@ -4180,7 +4180,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pedra Bela
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5222,
@@ -4190,7 +4190,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pedranópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5223,
@@ -4200,7 +4200,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pedregulho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5224,
@@ -4210,7 +4210,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pedreira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5225,
@@ -4220,7 +4220,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pedrinhas Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5226,
@@ -4230,7 +4230,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pedro de Toledo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5227,
@@ -4240,7 +4240,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Penápolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5228,
@@ -4250,7 +4250,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pereira Barreto
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5229,
@@ -4260,7 +4260,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pereiras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5230,
@@ -4270,7 +4270,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Peruíbe
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5231,
@@ -4280,7 +4280,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Piacatu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5232,
@@ -4290,7 +4290,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Piedade
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5233,
@@ -4300,7 +4300,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pilar do Sul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5234,
@@ -4310,7 +4310,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pindamonhangaba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5235,
@@ -4320,7 +4320,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pindorama
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5236,
@@ -4330,7 +4330,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pinhalzinho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5237,
@@ -4340,7 +4340,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Piquerobi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5238,
@@ -4350,7 +4350,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Piquete
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5239,
@@ -4360,7 +4360,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Piracaia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5240,
@@ -4370,7 +4370,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Piracicaba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5241,
@@ -4380,7 +4380,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Piraju
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5242,
@@ -4390,7 +4390,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pirajuí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5243,
@@ -4400,7 +4400,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pirangi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5244,
@@ -4410,7 +4410,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pirapora do Bom Jesus
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5245,
@@ -4420,7 +4420,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pirapozinho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5246,
@@ -4430,7 +4430,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pirassununga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5247,
@@ -4440,7 +4440,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Piratininga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5248,
@@ -4450,7 +4450,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pitangueiras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5249,
@@ -4460,7 +4460,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Planalto
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5250,
@@ -4470,7 +4470,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Platina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5251,
@@ -4480,7 +4480,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Poá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5252,
@@ -4490,7 +4490,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Poloni
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5253,
@@ -4500,7 +4500,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pompéia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5254,
@@ -4510,7 +4510,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pongaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5255,
@@ -4520,7 +4520,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pontal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5256,
@@ -4530,7 +4530,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pontalinda
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5257,
@@ -4540,7 +4540,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pontes Gestal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5258,
@@ -4550,7 +4550,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Populina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5259,
@@ -4560,7 +4560,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Porangaba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5260,
@@ -4570,7 +4570,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Porto Feliz
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5261,
@@ -4580,7 +4580,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Porto Ferreira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5262,
@@ -4590,7 +4590,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Potim
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5263,
@@ -4600,7 +4600,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Potirendaba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5264,
@@ -4610,7 +4610,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pracinha
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5265,
@@ -4620,7 +4620,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pradópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5266,
@@ -4630,7 +4630,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Praia Grande
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5267,
@@ -4640,7 +4640,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Pratânia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5268,
@@ -4650,7 +4650,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Presidente Alves
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5269,
@@ -4660,7 +4660,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Presidente Bernardes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5270,
@@ -4670,7 +4670,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Presidente Epitácio
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5271,
@@ -4680,7 +4680,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Presidente Prudente
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5272,
@@ -4690,7 +4690,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Presidente Venceslau
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5273,
@@ -4700,7 +4700,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Promissão
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5274,
@@ -4710,7 +4710,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Quadra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5275,
@@ -4720,7 +4720,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Quatá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5276,
@@ -4730,7 +4730,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Queiroz
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5277,
@@ -4740,7 +4740,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Queluz
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5278,
@@ -4750,7 +4750,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Quintana
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5279,
@@ -4760,7 +4760,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rafard
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5280,
@@ -4770,7 +4770,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rancharia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5281,
@@ -4780,7 +4780,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Redenção da Serra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5282,
@@ -4790,7 +4790,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Regente Feijó
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5283,
@@ -4800,7 +4800,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Reginópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5284,
@@ -4810,7 +4810,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Registro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5285,
@@ -4820,7 +4820,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Restinga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5286,
@@ -4830,7 +4830,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ribeira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5287,
@@ -4840,7 +4840,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ribeirão Bonito
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5288,
@@ -4850,7 +4850,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ribeirão Branco
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5289,
@@ -4860,7 +4860,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ribeirão Corrente
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5290,
@@ -4870,7 +4870,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ribeirão do Sul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5291,
@@ -4880,7 +4880,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ribeirão dos Índios
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5292,
@@ -4890,7 +4890,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ribeirão Grande
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5293,
@@ -4900,7 +4900,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ribeirão Pires
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5294,
@@ -4910,7 +4910,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ribeirão Preto
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5295,
@@ -4920,7 +4920,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rifaina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5296,
@@ -4930,7 +4930,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rincão
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5297,
@@ -4940,7 +4940,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rinópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5298,
@@ -4950,7 +4950,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rio Claro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5299,
@@ -4960,7 +4960,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rio das Pedras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5300,
@@ -4970,7 +4970,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rio Grande da Serra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5301,
@@ -4980,7 +4980,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Riolândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5302,
@@ -4990,7 +4990,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Riversul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5303,
@@ -5000,7 +5000,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rosana
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5304,
@@ -5010,7 +5010,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Roseira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5305,
@@ -5020,7 +5020,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rubiácea
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5306,
@@ -5030,7 +5030,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rubinéia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5307,
@@ -5040,7 +5040,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sabino
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5308,
@@ -5050,7 +5050,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sagres
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5309,
@@ -5060,7 +5060,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sales
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5310,
@@ -5070,7 +5070,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sales Oliveira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5311,
@@ -5080,7 +5080,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Salesópolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5312,
@@ -5090,7 +5090,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Salmourão
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5313,
@@ -5100,7 +5100,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Saltinho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5314,
@@ -5110,7 +5110,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Salto
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5315,
@@ -5120,7 +5120,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Salto de Pirapora
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5316,
@@ -5130,7 +5130,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Salto Grande
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5317,
@@ -5140,7 +5140,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sandovalina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5318,
@@ -5150,7 +5150,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Adélia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5319,
@@ -5160,7 +5160,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Albertina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5320,
@@ -5170,7 +5170,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Bárbara D Oeste
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5321,
@@ -5180,7 +5180,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Branca
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5322,
@@ -5190,7 +5190,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Clara D Oeste
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5323,
@@ -5200,7 +5200,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Cruz da Conceição
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5324,
@@ -5210,7 +5210,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Cruz da Esperança
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5325,
@@ -5220,7 +5220,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Cruz das Palmeiras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5326,
@@ -5230,7 +5230,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Cruz do Rio Pardo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5327,
@@ -5240,7 +5240,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Ernestina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5328,
@@ -5250,7 +5250,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Fé do Sul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5329,
@@ -5260,7 +5260,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Gertrudes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5330,
@@ -5270,7 +5270,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Isabel
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5331,
@@ -5280,7 +5280,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Lúcia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5332,
@@ -5290,7 +5290,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Maria da Serra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5333,
@@ -5300,7 +5300,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Mercedes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5334,
@@ -5310,7 +5310,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Rita do Passa Quatro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5335,
@@ -5320,7 +5320,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Rita D Oeste
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5336,
@@ -5330,7 +5330,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Rosa de Viterbo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5337,
@@ -5340,7 +5340,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Salete
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5338,
@@ -5350,7 +5350,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santana da Ponte Pensa
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5339,
@@ -5360,7 +5360,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santana de Parnaíba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5340,
@@ -5370,7 +5370,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santo Anastácio
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5341,
@@ -5380,7 +5380,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santo André
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5342,
@@ -5390,7 +5390,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santo Antônio da Alegria
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5343,
@@ -5400,7 +5400,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santo Antônio de Posse
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5344,
@@ -5410,7 +5410,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santo Antônio do Aracanguá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5345,
@@ -5420,7 +5420,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santo Antônio do Jardim
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5346,
@@ -5430,7 +5430,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santo Antônio do Pinhal
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5347,
@@ -5440,7 +5440,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santo Expedito
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5348,
@@ -5450,7 +5450,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santópolis do Aguapeí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5349,
@@ -5460,7 +5460,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5350,
@@ -5470,7 +5470,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Bento do Sapucaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5351,
@@ -5480,7 +5480,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Bernardo do Campo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5352,
@@ -5490,7 +5490,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Caetano do Sul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5353,
@@ -5500,7 +5500,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Carlos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5354,
@@ -5510,7 +5510,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Francisco
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5355,
@@ -5520,7 +5520,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São João da Boa Vista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5356,
@@ -5530,7 +5530,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São João das Duas Pontes
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5357,
@@ -5540,7 +5540,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São João de Iracema
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5358,
@@ -5550,7 +5550,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São João do Pau D Alho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5359,
@@ -5560,7 +5560,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Joaquim da Barra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5360,
@@ -5570,7 +5570,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São José da Bela Vista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5361,
@@ -5580,7 +5580,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São José do Barreiro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5362,
@@ -5590,7 +5590,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São José do Rio Pardo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5363,
@@ -5600,7 +5600,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São José do Rio Preto
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5364,
@@ -5610,7 +5610,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São José dos Campos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5365,
@@ -5620,7 +5620,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Lourenço da Serra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5366,
@@ -5630,7 +5630,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Luís do Paraitinga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5367,
@@ -5640,7 +5640,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Manuel
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5368,
@@ -5650,7 +5650,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Miguel Arcanjo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5369,
@@ -5660,7 +5660,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Paulo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5370,
@@ -5670,7 +5670,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Pedro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5371,
@@ -5680,7 +5680,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Pedro do Turvo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5372,
@@ -5690,7 +5690,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Roque
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5373,
@@ -5700,7 +5700,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Sebastião
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5374,
@@ -5710,7 +5710,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Sebastião da Grama
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5375,
@@ -5720,7 +5720,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Simão
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5376,
@@ -5730,7 +5730,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: São Vicente
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5377,
@@ -5740,7 +5740,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sarapuí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5378,
@@ -5750,7 +5750,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sarutaiá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5379,
@@ -5760,7 +5760,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sebastianópolis do Sul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5380,
@@ -5770,7 +5770,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Serra Azul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5381,
@@ -5780,7 +5780,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Serra Negra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5382,
@@ -5790,7 +5790,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Serrana
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5383,
@@ -5800,7 +5800,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sertãozinho
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5384,
@@ -5810,7 +5810,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sete Barras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5385,
@@ -5820,7 +5820,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Severínia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5386,
@@ -5830,7 +5830,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Silveiras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5387,
@@ -5840,7 +5840,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Socorro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5388,
@@ -5850,7 +5850,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sorocaba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5389,
@@ -5860,7 +5860,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sud Mennucci
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5390,
@@ -5870,7 +5870,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sumaré
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5391,
@@ -5880,7 +5880,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Suzanápolis
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5392,
@@ -5890,7 +5890,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Suzano
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5393,
@@ -5900,7 +5900,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tabapuã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5394,
@@ -5910,7 +5910,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tabatinga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5395,
@@ -5920,7 +5920,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Taboão da Serra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5396,
@@ -5930,7 +5930,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Taciba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5397,
@@ -5940,7 +5940,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Taguaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5398,
@@ -5950,7 +5950,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Taiaçu
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5399,
@@ -5960,7 +5960,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Taiúva
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5400,
@@ -5970,7 +5970,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tambaú
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5401,
@@ -5980,7 +5980,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tanabi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5402,
@@ -5990,7 +5990,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tapiraí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5403,
@@ -6000,7 +6000,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tapiratiba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5404,
@@ -6010,7 +6010,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Taquaral
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5405,
@@ -6020,7 +6020,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Taquaritinga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5406,
@@ -6030,7 +6030,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Taquarituba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5407,
@@ -6040,7 +6040,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Taquarivaí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5408,
@@ -6050,7 +6050,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tarabai
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5409,
@@ -6060,7 +6060,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tarumã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5410,
@@ -6070,7 +6070,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tatuí
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5411,
@@ -6080,7 +6080,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Taubaté
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5412,
@@ -6090,7 +6090,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tejupá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5413,
@@ -6100,7 +6100,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Teodoro Sampaio
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5414,
@@ -6110,7 +6110,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Terra Roxa
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5415,
@@ -6120,7 +6120,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tietê
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5416,
@@ -6130,7 +6130,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Timburi
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5417,
@@ -6140,7 +6140,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Torre de Pedra
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5418,
@@ -6150,7 +6150,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Torrinha
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5419,
@@ -6160,7 +6160,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Trabiju
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5420,
@@ -6170,7 +6170,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tremembé
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5421,
@@ -6180,7 +6180,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Três Fronteiras
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5422,
@@ -6190,7 +6190,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tuiuti
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5423,
@@ -6200,7 +6200,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tupã
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5424,
@@ -6210,7 +6210,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tupi Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5425,
@@ -6220,7 +6220,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Turiúba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5426,
@@ -6230,7 +6230,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Turmalina
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5427,
@@ -6240,7 +6240,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ubarana
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5428,
@@ -6250,7 +6250,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ubatuba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5429,
@@ -6260,7 +6260,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Ubirajara
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5430,
@@ -6270,7 +6270,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Uchoa
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5431,
@@ -6280,7 +6280,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: União Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5432,
@@ -6290,7 +6290,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Urânia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5433,
@@ -6300,7 +6300,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Uru
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5434,
@@ -6310,7 +6310,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Urupês
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5435,
@@ -6320,7 +6320,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Valentim Gentil
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5436,
@@ -6330,7 +6330,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Valinhos
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5437,
@@ -6340,7 +6340,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Valparaíso
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5438,
@@ -6350,7 +6350,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Vargem
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5439,
@@ -6360,7 +6360,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Vargem Grande do Sul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5440,
@@ -6370,7 +6370,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Vargem Grande Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5441,
@@ -6380,7 +6380,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Várzea Paulista
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5442,
@@ -6390,7 +6390,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Vera Cruz
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5443,
@@ -6400,7 +6400,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Vinhedo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5444,
@@ -6410,7 +6410,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Viradouro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5445,
@@ -6420,7 +6420,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Vista Alegre do Alto
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5446,
@@ -6430,7 +6430,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Vitória Brasil
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5447,
@@ -6440,7 +6440,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Votorantim
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5448,
@@ -6450,7 +6450,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Votuporanga
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5449,
@@ -6460,7 +6460,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Zacarias
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5450,

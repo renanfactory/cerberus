@@ -18,7 +18,7 @@ namespace Site.Data.Initializer.Estados
             //----------------------------------------------------
 
             // cidade: Acrelândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 1,
@@ -28,7 +28,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Assis Brasil
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 2,
@@ -38,7 +38,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Brasiléia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 3,
@@ -48,7 +48,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Bujari
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 4,
@@ -58,7 +58,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Capixaba
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 5,
@@ -68,7 +68,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Cruzeiro do Sul
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 6,
@@ -78,7 +78,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Epitaciolândia
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 7,
@@ -88,7 +88,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Feijó
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 8,
@@ -98,7 +98,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Jordão
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 9,
@@ -108,7 +108,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Mâncio Lima
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 10,
@@ -118,7 +118,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Manoel Urbano
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 11,
@@ -128,7 +128,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Marechal Thaumaturgo
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 12,
@@ -138,7 +138,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Plácido de Castro
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 13,
@@ -148,7 +148,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Porto Acre
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 14,
@@ -158,7 +158,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Porto Walter
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 15,
@@ -168,7 +168,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rio Branco
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 16,
@@ -178,7 +178,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Rodrigues Alves
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 17,
@@ -188,7 +188,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Santa Rosa do Purus
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 18,
@@ -198,7 +198,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Sena Madureira
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 19,
@@ -208,7 +208,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Senador Guiomard
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 20,
@@ -218,7 +218,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Tarauacá
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 21,
@@ -228,7 +228,7 @@ namespace Site.Data.Initializer.Estados
             });
 
             // cidade: Xapuri
-            _context.Cidades.Add(new Entities.Cidade()
+            _context.Cidades.Add(new Entities.Domains.Cidade()
             {
                 DataCriacao = DateTime.Now,
                 Id = 22,

@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Site.Data.Entities.Interfaces;
+using System;
 
-namespace Site.Data.Entities
+namespace Site.Data.Entities.Domains
 {
     public class UF : IBaseEntity<string>
     {

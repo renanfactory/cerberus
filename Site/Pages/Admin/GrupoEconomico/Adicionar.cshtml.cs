@@ -3,9 +3,12 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Site.Data;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using Cerberus.Extensions;
-using System.Collections.Generic;
 using Cep;
+using System;
+using System.Globalization;
+using System.Collections.Generic;
+using Site.Data.Entities;
+using System.Threading.Tasks;
 
 namespace Site.Pages.Admin.GrupoEconomico
 {
@@ -30,16 +33,22 @@ namespace Site.Pages.Admin.GrupoEconomico
 
         public IActionResult OnGetCidadeList(string uf)
         {
-            var itens = _context.Cidades.Where(e => e.UF == uf).ToList();
-            if (itens.Any()) return new NotFoundResult();
+            var itens = _context.Cidades
+                                .Where(e => e.UF == uf)
+                                .Select(c => new ItemPrefeituraModel() { id = c.Id, nome = c.Nome })
+                                .ToList();
 
-            itens.Insert(0, new Data.Entities.Cidade { Id = 0, Nome = "(Selecione)" });
-
+            if (!itens.Any()) return new NoContentResult();
+            itens.Insert(0, new ItemPrefeituraModel { id = 0, nome = "(Selecione)" });
             return new JsonResult(itens);
         }
 
         public IActionResult OnGetFilterCep(string cep)
         {
+            if (string.IsNullOrEmpty(cep))
+            {
+                return new NotFoundResult();
+            }
             var Item = _cepdbContext.Ceps.Where(e => e.Cep == cep.Replace("-", "")).FirstOrDefault();
             if (Item != null)
             {
@@ -48,18 +57,56 @@ namespace Site.Pages.Admin.GrupoEconomico
             return new NotFoundResult();
         }
 
-        public IActionResult OnPost()
+        public async Task<IActionResult> OnPostAsync()
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
+            //    var MyCultureInfo = new CultureInfo("pt-BR");
 
+            //    var Item = new Data.Entities.GrupoEconomico
+            //    {
+            //        CNPJ = Input.CNPJ,
+            //        InscricaoMunicipal = Input.InscricaoEstadual,
+            //        DataFundacao = DateTime.Parse(Input.DataFundacao, MyCultureInfo),
+            //        Nome = Input.Nome,
+            //        NomeFantasia = Input.NomeFantasia,
+            //        Situacao = "Ativo",
+            //        Telefones = new List<TelefoneGrupoEconomico>
+            //            {
+            //                new TelefoneGrupoEconomico
+            //                {
+            //                    CodigoPais = Input.DDI,
+            //                    CodigoRegiao = Input.CodigoRegiao,
+            //                    Numero = Input.NumeroTelefone,
+            //                    Ramal = Input.Ramal,
+            //                    TipoTelefone = _context.TiposdeTelefone.FirstOrDefault(c => c.Nome == "Comercial"),
+            //                    DataCriacao = DateTime.Now,
+            //                    Situacao = "Ativo",
+            //                    Principal = true
+            //                }
+            //            },
+            //        Enderecos = new List<EnderecoGrupoEconomico>
+            //            {
+            //                new EnderecoGrupoEconomico
+            //                {
+            //                    Cep = Input.CEP,
+            //                    Logradouro = Input.Logradouro,
+            //                    Cidade = Input.CodigoMunicipio,
+            //                    Complemento = Input.Complemento,
+            //                    Numero = Input.Numero,
+            //                    UF = Input.UF,
+            //                    DataCriacao = DateTime.Now,
+            //                    Situacao = "Ativo",
+            //                    Principal = true
+            //                }
+            //            }
+            //    };
 
+            //    await _context.GruposEconomicos.AddAsync(Item);
+            //    await _context.SaveChangesAsync();
 
-
-
-
-                return RedirectToPage("../GrupoEconomico");
-            }
+            //    return RedirectToPage("../GrupoEconomico");
+            //}
             Update();
             return Page();
         }
@@ -67,10 +114,16 @@ namespace Site.Pages.Admin.GrupoEconomico
         private void Update()
         {
             ViewData["Estados"] = _context.Estados
-                                                  .Where(e => e.Situacao == "Ativo")
-                                                  .OrderBy(c => c.UnidadeFederativa)
-                                                  .Select(c => new ItemUF { sigla = c.Id, nome = c.UnidadeFederativa })
-                                                  .ToArray();
+                                          .Where(e => e.Situacao == "Ativo")
+                                          .OrderBy(e => e.UnidadeFederativa)
+                                          .Select(e => new ItemUFModel { sigla = e.Id, nome = e.UnidadeFederativa })
+                                          .ToArray();
+
+            ViewData["RamosDeAtividades"] = _context.RamosDeAtividades
+                                   .Where(e => e.Situacao == "Ativo")
+                                   .Select(e => new ItemRamoAtividade { id = e.Id , nome = e.Nome })
+                                   .ToArray();
+
         }
 
         public class InputModel
@@ -88,10 +141,30 @@ namespace Site.Pages.Admin.GrupoEconomico
             public string Nome { get; set; }
 
             [Required]
+            [Display(Name = "Ramos de atividades", Prompt = "Ramos de atividades")]
+            public string[] RamoAtividade { get; set; }
+
+            [Required]
             [Display(Name = "Nome fantasia", Prompt = "Nome fantasia")]
             public string NomeFantasia { get; set; }
 
             [Required]
+            [Display(Name = "Código de país", Prompt = "Ex: +055")]
+            public string DDI { get; set; }
+
+            [Required]
+            [Display(Name = "Código de região", Prompt = "Ex: (011)")]
+            public string CodigoRegiao { get; set; }
+
+            [Required]
+            [Display(Name = "Número de telefone", Prompt = "Ex: 9999-9999")]
+            public string NumeroTelefone { get; set; }
+
+            [Display(Name = "Ramal", Prompt = "Ex: 0011")]
+            public string Ramal { get; set; }
+
+            [Required]
+            [MaxLength(length: 9)]
             [Display(Name = "CEP", Prompt = "Ex: 99999-999")]
             public string CEP { get; set; }
 
@@ -103,7 +176,6 @@ namespace Site.Pages.Admin.GrupoEconomico
             [Display(Name = "Numero", Prompt = "Numero...")]
             public string Numero { get; set; }
 
-            [Required]
             [Display(Name = "Complemento", Prompt = "Complemento...")]
             public string Complemento { get; set; }
 
@@ -120,9 +192,20 @@ namespace Site.Pages.Admin.GrupoEconomico
             public string InscricaoEstadual { get; set; }
         }
     }
-    public class ItemUF
+    public class ItemUFModel
     {
         public string sigla { get; set; }
+        public string nome { get; set; }
+    }
+
+    public class ItemPrefeituraModel
+    {
+        public int id { get; set; }
+        public string nome { get; set; }
+    }
+    public class ItemRamoAtividade
+    {
+        public int id { get; set; }
         public string nome { get; set; }
     }
 }

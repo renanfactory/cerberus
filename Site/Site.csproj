@@ -2,6 +2,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
+  <PropertyGroup>
+    <TypeScriptCompileBlocked>True</TypeScriptCompileBlocked>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Pages\Administrador\**" />
     <Content Remove="Pages\Administrador\**" />
@@ -11,7 +14,7 @@
   <ItemGroup>
     <None Remove="IdentityDB.db-journal" />
   </ItemGroup>
-<ItemGroup>
+  <ItemGroup>
     <PackageReference Include="IdentityServer4" Version="2.2.0" />
     <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="2.6.0" />
     <PackageReference Include="IdentityServer4.AspNetIdentity" Version="2.1.0" />

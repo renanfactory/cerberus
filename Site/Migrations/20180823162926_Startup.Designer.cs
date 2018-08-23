@@ -11,8 +11,8 @@ using System;
 namespace Site.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20180822194905_Criacao")]
-    partial class Criacao
+    [Migration("20180823162926_Startup")]
+    partial class Startup
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -195,7 +195,7 @@ namespace Site.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("Site.Data.Entities.Cidade", b =>
+            modelBuilder.Entity("Site.Data.Entities.Domains.Cidade", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -213,35 +213,43 @@ namespace Site.Migrations
                     b.ToTable("Cidades");
                 });
 
-            modelBuilder.Entity("Site.Data.Entities.GrupoEconomico", b =>
+            modelBuilder.Entity("Site.Data.Entities.Domains.RamoDeAtividade", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
-
-                    b.Property<string>("CNPJ");
-
-                    b.Property<int>("CodigoMunicipio");
 
                     b.Property<DateTime>("DataCriacao");
 
-                    b.Property<DateTime>("DataFundacao");
-
-                    b.Property<string>("InscricaoMunicipal");
+                    b.Property<Guid?>("GrupoEconomicoId");
 
                     b.Property<string>("Nome");
 
-                    b.Property<string>("NomeFantasia");
-
                     b.Property<string>("Situacao");
-
-                    b.Property<string>("Uf");
 
                     b.HasKey("Id");
 
-                    b.ToTable("GruposEconomicos");
+                    b.HasIndex("GrupoEconomicoId");
+
+                    b.ToTable("RamosDeAtividades");
                 });
 
-            modelBuilder.Entity("Site.Data.Entities.UF", b =>
+            modelBuilder.Entity("Site.Data.Entities.Domains.TipoTelefone", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("DataCriacao");
+
+                    b.Property<string>("Nome");
+
+                    b.Property<string>("Situacao");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TiposdeTelefone");
+                });
+
+            modelBuilder.Entity("Site.Data.Entities.Domains.UF", b =>
                 {
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
@@ -255,6 +263,94 @@ namespace Site.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Estados");
+                });
+
+            modelBuilder.Entity("Site.Data.Entities.EnderecoGrupoEconomico", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Cep");
+
+                    b.Property<int>("Cidade");
+
+                    b.Property<string>("Complemento");
+
+                    b.Property<DateTime>("DataCriacao");
+
+                    b.Property<Guid?>("GrupoEconomicoId");
+
+                    b.Property<string>("Logradouro");
+
+                    b.Property<string>("Numero");
+
+                    b.Property<bool>("Principal");
+
+                    b.Property<string>("Situacao");
+
+                    b.Property<string>("UF");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GrupoEconomicoId");
+
+                    b.ToTable("EnderecoGrupoEconomico");
+                });
+
+            modelBuilder.Entity("Site.Data.Entities.GrupoEconomico", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CNPJ");
+
+                    b.Property<DateTime>("DataCriacao");
+
+                    b.Property<DateTime>("DataFundacao");
+
+                    b.Property<string>("InscricaoMunicipal");
+
+                    b.Property<string>("Nome");
+
+                    b.Property<string>("NomeFantasia");
+
+                    b.Property<string>("Situacao");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GruposEconomicos");
+                });
+
+            modelBuilder.Entity("Site.Data.Entities.TelefoneGrupoEconomico", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CodigoPais");
+
+                    b.Property<string>("CodigoRegiao");
+
+                    b.Property<DateTime>("DataCriacao");
+
+                    b.Property<Guid?>("GrupoEconomicoId");
+
+                    b.Property<string>("Numero");
+
+                    b.Property<bool>("Principal");
+
+                    b.Property<string>("Ramal");
+
+                    b.Property<string>("Situacao");
+
+                    b.Property<int?>("TipoTelefoneId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GrupoEconomicoId");
+
+                    b.HasIndex("TipoTelefoneId");
+
+                    b.ToTable("TelefoneGrupoEconomico");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -300,6 +396,31 @@ namespace Site.Migrations
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Site.Data.Entities.Domains.RamoDeAtividade", b =>
+                {
+                    b.HasOne("Site.Data.Entities.GrupoEconomico")
+                        .WithMany("RamosDeAtividade")
+                        .HasForeignKey("GrupoEconomicoId");
+                });
+
+            modelBuilder.Entity("Site.Data.Entities.EnderecoGrupoEconomico", b =>
+                {
+                    b.HasOne("Site.Data.Entities.GrupoEconomico")
+                        .WithMany("Enderecos")
+                        .HasForeignKey("GrupoEconomicoId");
+                });
+
+            modelBuilder.Entity("Site.Data.Entities.TelefoneGrupoEconomico", b =>
+                {
+                    b.HasOne("Site.Data.Entities.GrupoEconomico")
+                        .WithMany("Telefones")
+                        .HasForeignKey("GrupoEconomicoId");
+
+                    b.HasOne("Site.Data.Entities.Domains.TipoTelefone", "TipoTelefone")
+                        .WithMany()
+                        .HasForeignKey("TipoTelefoneId");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,6 +1,6 @@
 using System;
 
-namespace Site.Data.Entities
+namespace Site.Data.Entities.Interfaces
 {
     public interface IBaseEntity<TKey>
     {

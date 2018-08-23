@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Site.Migrations
 {
-    public partial class Criacao : Migration
+    public partial class Startup : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -92,18 +92,31 @@ namespace Site.Migrations
                 {
                     Id = table.Column<Guid>(nullable: false),
                     CNPJ = table.Column<string>(nullable: true),
-                    CodigoMunicipio = table.Column<int>(nullable: false),
                     DataCriacao = table.Column<DateTime>(nullable: false),
                     DataFundacao = table.Column<DateTime>(nullable: false),
                     InscricaoMunicipal = table.Column<string>(nullable: true),
                     Nome = table.Column<string>(nullable: true),
                     NomeFantasia = table.Column<string>(nullable: true),
-                    Situacao = table.Column<string>(nullable: true),
-                    Uf = table.Column<string>(nullable: true)
+                    Situacao = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_GruposEconomicos", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "TiposdeTelefone",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    DataCriacao = table.Column<DateTime>(nullable: false),
+                    Nome = table.Column<string>(nullable: true),
+                    Situacao = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TiposdeTelefone", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -212,6 +225,89 @@ namespace Site.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "EnderecoGrupoEconomico",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Cep = table.Column<string>(nullable: true),
+                    Cidade = table.Column<int>(nullable: false),
+                    Complemento = table.Column<string>(nullable: true),
+                    DataCriacao = table.Column<DateTime>(nullable: false),
+                    GrupoEconomicoId = table.Column<Guid>(nullable: true),
+                    Logradouro = table.Column<string>(nullable: true),
+                    Numero = table.Column<string>(nullable: true),
+                    Principal = table.Column<bool>(nullable: false),
+                    Situacao = table.Column<string>(nullable: true),
+                    UF = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_EnderecoGrupoEconomico", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_EnderecoGrupoEconomico_GruposEconomicos_GrupoEconomicoId",
+                        column: x => x.GrupoEconomicoId,
+                        principalTable: "GruposEconomicos",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "RamosDeAtividades",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    DataCriacao = table.Column<DateTime>(nullable: false),
+                    GrupoEconomicoId = table.Column<Guid>(nullable: true),
+                    Nome = table.Column<string>(nullable: true),
+                    Situacao = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_RamosDeAtividades", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_RamosDeAtividades_GruposEconomicos_GrupoEconomicoId",
+                        column: x => x.GrupoEconomicoId,
+                        principalTable: "GruposEconomicos",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "TelefoneGrupoEconomico",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    CodigoPais = table.Column<string>(nullable: true),
+                    CodigoRegiao = table.Column<string>(nullable: true),
+                    DataCriacao = table.Column<DateTime>(nullable: false),
+                    GrupoEconomicoId = table.Column<Guid>(nullable: true),
+                    Numero = table.Column<string>(nullable: true),
+                    Principal = table.Column<bool>(nullable: false),
+                    Ramal = table.Column<string>(nullable: true),
+                    Situacao = table.Column<string>(nullable: true),
+                    TipoTelefoneId = table.Column<int>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TelefoneGrupoEconomico", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_TelefoneGrupoEconomico_GruposEconomicos_GrupoEconomicoId",
+                        column: x => x.GrupoEconomicoId,
+                        principalTable: "GruposEconomicos",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_TelefoneGrupoEconomico_TiposdeTelefone_TipoTelefoneId",
+                        column: x => x.TipoTelefoneId,
+                        principalTable: "TiposdeTelefone",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -248,6 +344,26 @@ namespace Site.Migrations
                 table: "AspNetUsers",
                 column: "NormalizedUserName",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_EnderecoGrupoEconomico_GrupoEconomicoId",
+                table: "EnderecoGrupoEconomico",
+                column: "GrupoEconomicoId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_RamosDeAtividades_GrupoEconomicoId",
+                table: "RamosDeAtividades",
+                column: "GrupoEconomicoId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_TelefoneGrupoEconomico_GrupoEconomicoId",
+                table: "TelefoneGrupoEconomico",
+                column: "GrupoEconomicoId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_TelefoneGrupoEconomico_TipoTelefoneId",
+                table: "TelefoneGrupoEconomico",
+                column: "TipoTelefoneId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -271,16 +387,28 @@ namespace Site.Migrations
                 name: "Cidades");
 
             migrationBuilder.DropTable(
+                name: "EnderecoGrupoEconomico");
+
+            migrationBuilder.DropTable(
                 name: "Estados");
 
             migrationBuilder.DropTable(
-                name: "GruposEconomicos");
+                name: "RamosDeAtividades");
+
+            migrationBuilder.DropTable(
+                name: "TelefoneGrupoEconomico");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "GruposEconomicos");
+
+            migrationBuilder.DropTable(
+                name: "TiposdeTelefone");
         }
     }
 }

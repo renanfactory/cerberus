@@ -13,7 +13,7 @@ namespace Site.Data.Initializer
 
         public async System.Threading.Tasks.Task InitializeAsync()
         {
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "AC",
                 UnidadeFederativa = "Acre",
@@ -23,7 +23,7 @@ namespace Site.Data.Initializer
 
             await new Estados.AC(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "AL",
                 UnidadeFederativa = "Alagoas",
@@ -32,7 +32,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.AL(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "AM",
                 UnidadeFederativa = "Amazonas",
@@ -42,7 +42,7 @@ namespace Site.Data.Initializer
 
             await new Estados.AM(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "Ap",
                 UnidadeFederativa = "Amapá",
@@ -51,7 +51,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.AP(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "BA",
                 UnidadeFederativa = "Bahia",
@@ -60,7 +60,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.BA(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "CE",
                 UnidadeFederativa = "Ceará",
@@ -69,7 +69,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.CE(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "DF",
                 UnidadeFederativa = "Distrito Federal",
@@ -78,7 +78,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.DF(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "ES",
                 UnidadeFederativa = "Espírito Santo",
@@ -87,7 +87,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.ES(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "GO",
                 UnidadeFederativa = "Goiás",
@@ -96,7 +96,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.GO(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "MA",
                 UnidadeFederativa = "Maranhão",
@@ -105,7 +105,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.MA(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "MG",
                 UnidadeFederativa = "Minas Gerais",
@@ -114,7 +114,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.MG(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "MS",
                 UnidadeFederativa = "Mato Grosso do Sul",
@@ -123,7 +123,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.MS(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "MT",
                 UnidadeFederativa = "Mato Grosso",
@@ -132,7 +132,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.MT(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "PA",
                 UnidadeFederativa = "Pará",
@@ -141,7 +141,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.PA(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "PB",
                 UnidadeFederativa = "Paraíba",
@@ -150,7 +150,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.PB(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "PE",
                 UnidadeFederativa = "Pernambuco",
@@ -159,7 +159,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.PE(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "PI",
                 UnidadeFederativa = "Piauí",
@@ -168,7 +168,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.PI(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "PR",
                 UnidadeFederativa = "Paraná",
@@ -177,7 +177,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.PR(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "RJ",
                 UnidadeFederativa = "Rio de Janeiro",
@@ -186,7 +186,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.RJ(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "RN",
                 UnidadeFederativa = "Rio Grande do Norte",
@@ -195,7 +195,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.RN(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "RO",
                 UnidadeFederativa = "Rondônia",
@@ -204,7 +204,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.RO(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "RR",
                 UnidadeFederativa = "Roraima",
@@ -213,7 +213,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.RR(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "RS",
                 UnidadeFederativa = "Rio Grande do Sul",
@@ -222,7 +222,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.RS(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "SC",
                 UnidadeFederativa = "Santa Catarina",
@@ -231,7 +231,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.SC(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "SE",
                 UnidadeFederativa = "Sergipe",
@@ -240,7 +240,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.SE(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "SP",
                 UnidadeFederativa = "São Paulo",
@@ -249,7 +249,7 @@ namespace Site.Data.Initializer
             });
             await new Estados.SP(_context).InitializeAsync();
 
-            await _context.Estados.AddAsync(new Entities.UF()
+            await _context.Estados.AddAsync(new Entities.Domains.UF()
             {
                 Id = "TO",
                 UnidadeFederativa = "Tocantins",

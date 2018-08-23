@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.AspNetCore.Identity;
+using Site.Data.Entities.Interfaces;
 
 namespace Site.Data.Entities
 {
